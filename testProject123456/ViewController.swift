@@ -40,23 +40,49 @@ class ViewController: UIViewController {
      
      */
     
+    var nameText:String = ""
+    var ageText:Int = 0
+    
+    let actionModel1 = ActionModel(name: "tanaka", age: 10)
+    let actionModel2 = ActionModel(name: "hanako", age: 16)
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        nameText = actionModel1.name
+        ageText = actionModel1.age
+        
+        nameLabel.text = nameText
+        ageLabel.text = String(ageText)
+        
     }
 
 
     
     @IBAction func fukayasanAction(_ sender: Any) {
         
+        nameText = actionModel2.name
+        ageText = actionModel2.age
+        nameLabel.text = nameText
+        ageLabel.text = String(ageText)
         
     }
     
     @IBAction func nakatsukasanAction(_ sender: Any) {
     }
     
-
+   
+//    func changeName(){
+//
+//
+//
+//    }
+//
+//    func changeAge(){
+//
+//
+//    }
 
 }
 
