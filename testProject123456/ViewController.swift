@@ -40,7 +40,8 @@ class ViewController: UIViewController {
      
      */
     
-    var actionModel = ActionModel()
+    let actionModel1 = ActionModel(name: "tanaka", age: 10)
+    let actionModel2 = ActionModel(name: "hanako", age: 16)
     
     
     override func viewDidLoad() {
@@ -52,6 +53,11 @@ class ViewController: UIViewController {
     
     @IBAction func fukayasanAction(_ sender: Any) {
         
+        nameLabel.text = actionModel1.name
+        ageLabel.text = String(actionModel1.age)
+        
+        nameLabel2.text = actionModel2.name
+        ageLabel2.text = String(actionModel2.age)
         
     }
     
