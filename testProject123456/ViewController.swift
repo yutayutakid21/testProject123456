@@ -40,12 +40,21 @@ class ViewController: UIViewController {
      
      */
     
+    var nameText:String = ""
+    var ageText:Int = 0
+    
     let actionModel1 = ActionModel(name: "tanaka", age: 10)
     let actionModel2 = ActionModel(name: "hanako", age: 16)
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        nameText = actionModel1.name
+        ageText = actionModel1.age
+        
+        nameLabel.text = nameText
+        ageLabel.text = String(ageText)
         
     }
 
@@ -53,18 +62,27 @@ class ViewController: UIViewController {
     
     @IBAction func fukayasanAction(_ sender: Any) {
         
-        nameLabel.text = actionModel1.name
-        ageLabel.text = String(actionModel1.age)
-        
-        nameLabel2.text = actionModel2.name
-        ageLabel2.text = String(actionModel2.age)
+        nameText = actionModel2.name
+        ageText = actionModel2.age
+        nameLabel.text = nameText
+        ageLabel.text = String(ageText)
         
     }
     
     @IBAction func nakatsukasanAction(_ sender: Any) {
     }
     
-
+   
+//    func changeName(){
+//
+//
+//
+//    }
+//
+//    func changeAge(){
+//
+//
+//    }
 
 }
 
