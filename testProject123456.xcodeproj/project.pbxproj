@@ -21,7 +21,7 @@
 		A4ED221024D2982300B9D1EF /* testProject123456.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject123456.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4ED221324D2982300B9D1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4ED221524D2982300B9D1EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4ED221724D2982300B9D1EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		A4ED221724D2982300B9D1EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4ED221A24D2982300B9D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4ED221C24D2982800B9D1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4ED221F24D2982800B9D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,21 +63,13 @@
 				A4ED221324D2982300B9D1EF /* AppDelegate.swift */,
 				A4ED221524D2982300B9D1EF /* SceneDelegate.swift */,
 				A4ED222824D29C4100B9D1EF /* Model */,
-				A4ED222724D2984900B9D1EF /* Controller */,
 				A4ED221924D2982300B9D1EF /* Main.storyboard */,
+				A4ED221724D2982300B9D1EF /* ViewController.swift */,
 				A4ED221C24D2982800B9D1EF /* Assets.xcassets */,
 				A4ED221E24D2982800B9D1EF /* LaunchScreen.storyboard */,
 				A4ED222124D2982800B9D1EF /* Info.plist */,
 			);
 			path = testProject123456;
-			sourceTree = "<group>";
-		};
-		A4ED222724D2984900B9D1EF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A4ED221724D2982300B9D1EF /* ViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		A4ED222824D29C4100B9D1EF /* Model */ = {
