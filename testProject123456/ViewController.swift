@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ageLabel2: UILabel!
     
+    var users1 = Users(name: "name2", age: "age2")
+    
     
     //深谷さん課題
     
@@ -70,6 +72,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func nakatsukasanAction(_ sender: Any) {
+    nameLabel2.text = String("name2")
+        ageLabel2.text = String("age2")
+        
+        
     }
     
    
